@@ -20,7 +20,7 @@ namespace IMC
             double alturares;
             double resultadofinal;
 
-            alturares = (altura * 2);
+            alturares = Math.Pow(altura, 2);
             resultadofinal = peso / alturares;
 
             Console.WriteLine();
